@@ -1,0 +1,7 @@
+button {
+  @apply bg-gray-300 px-2 py-1 min-w-36;
+}
+
+p > span {
+  @apply inline-block w-6;
+}

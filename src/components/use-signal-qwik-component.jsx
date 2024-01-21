@@ -9,12 +9,8 @@ const UseSignalQwikComponent = component$(() => {
 
   return (
     <div>
-      <p
-        style={{
-          lineHeight: '1.2rem',
-        }}
-      >
-        <span style={{ display: 'inline-block', width: '22px' }}>
+      <p>
+        <span>
           {isVisible.value ? (
             <span role='img' aria-label='Rocket'>
               🚀

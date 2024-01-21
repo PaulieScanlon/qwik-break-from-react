@@ -9,12 +9,8 @@ const UseStateBooleanReactComponent = () => {
 
   return (
     <div>
-      <p
-        style={{
-          lineHeight: '1.2rem',
-        }}
-      >
-        <span style={{ display: 'inline-block', width: '22px' }}>
+      <p>
+        <span>
           {isVisible ? (
             <span role='img' aria-label='Rocket'>
               🚀

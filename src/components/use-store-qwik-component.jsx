@@ -13,7 +13,7 @@ const UseStoreQwikComponent = component$(() => {
 
   return (
     <div>
-      <div style={{ height: '22px' }}>
+      <div className='h-8'>
         {rockets.map((data) => {
           return (
             <span role='img' aria-label='Rocket'>
@@ -23,8 +23,10 @@ const UseStoreQwikComponent = component$(() => {
         })}
       </div>
       <p>Hello, I'm a useStore Qwik component</p>
-      <button onClick$={handleAdd}>+</button>
-      <button onClick$={handleRemove}>-</button>
+      <div className='flex gap-4'>
+        <button onClick$={handleAdd}>+</button>
+        <button onClick$={handleRemove}>-</button>
+      </div>
     </div>
   );
 });

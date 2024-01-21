@@ -13,7 +13,7 @@ const UseStateBooleanReactComponent = () => {
 
   return (
     <div>
-      <div style={{ height: '22px' }}>
+      <div className='h-8'>
         {rockets.map((data, index) => {
           return (
             <span key={index} role='img' aria-label='Rocket'>
@@ -23,8 +23,10 @@ const UseStateBooleanReactComponent = () => {
         })}
       </div>
       <p>Hello, I'm a useState array React component</p>
-      <button onClick={handleAdd}>+</button>
-      <button onClick={handleRemove}>-</button>
+      <div className='flex gap-4'>
+        <button onClick={handleAdd}>+</button>
+        <button onClick={handleRemove}>-</button>
+      </div>
     </div>
   );
 };
