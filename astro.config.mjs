@@ -5,6 +5,6 @@ import react from '@astrojs/react';
 
 export default defineConfig({
   // integrations: [react()],
-  integrations: [qwikdev()],
-  // integrations: [qwikdev(), react({ include: ['**/react/*'] })],
+  // integrations: [qwikdev()],
+  integrations: [qwikdev(), react({ include: ['**/react/*'] })],
 });
