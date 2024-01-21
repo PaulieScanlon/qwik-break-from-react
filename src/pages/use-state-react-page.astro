@@ -1,0 +1,9 @@
+---
+import Main from '../layouts/main.astro';
+import UseStateReactComponent from '../components/use-state-react-component';
+---
+
+<Main>
+  <h1>useState React Page</h1>
+  <UseStateReactComponent client:only='react' />
+</Main>

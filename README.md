@@ -1,1 +1,1 @@
-# qwik-break-from-react
+# Take a Qwik Break from React
