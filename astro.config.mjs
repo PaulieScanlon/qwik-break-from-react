@@ -5,12 +5,12 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [qwikdev(), tailwind()],
-  // integrations: [
-  //   qwikdev(),
-  //   react({
-  //     include: ['**/react/*'],
-  //   }),
-  //   tailwind(),
-  // ],
+  // integrations: [qwikdev(), tailwind()],
+  integrations: [
+    qwikdev(),
+    react({
+      include: ['**/react/*'],
+    }),
+    tailwind(),
+  ],
 });
