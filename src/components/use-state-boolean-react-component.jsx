@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const UseStateReactComponent = () => {
+const UseStateBooleanReactComponent = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   const handleVisibility = () => {
@@ -14,18 +14,18 @@ const UseStateReactComponent = () => {
           lineHeight: '1.2rem',
         }}
       >
-        <span style={{ display: 'inline-block', width: '20px' }}>
+        <span style={{ display: 'inline-block', width: '22px' }}>
           {isVisible ? (
             <span role='img' aria-label='Rocket'>
               🚀
             </span>
           ) : null}
         </span>
-        Hello, I'm a useState React component
+        Hello, I'm a useState boolean React component
       </p>
       <button onClick={handleVisibility}>{`${isVisible.value ? 'Hide' : 'Show'} Rocket`}</button>
     </div>
   );
 };
 
-export default UseStateReactComponent;
+export default UseStateBooleanReactComponent;
