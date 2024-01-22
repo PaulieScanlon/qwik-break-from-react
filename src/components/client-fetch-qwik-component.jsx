@@ -1,9 +1,9 @@
-import { component$, useTask$, useSignal } from '@builder.io/qwik';
+import { component$, useVisibleTask$, useSignal } from '@builder.io/qwik';
 
 const ClientFetchQwikComponent = component$(() => {
   const data = useSignal(null);
 
-  useTask$(async () => {
+  useVisibleTask$(async () => {
     try {
       const response = await fetch('https://api.github.com/repos/BuilderIO/qwik/pulls/1', {
         method: 'GET',
