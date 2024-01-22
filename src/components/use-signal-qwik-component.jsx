@@ -4,7 +4,7 @@ const UseSignalQwikComponent = component$(() => {
   const isVisible = useSignal(true);
 
   const handleVisibility = $(() => {
-    isVisible.value ? (isVisible.value = false) : (isVisible.value = true);
+    isVisible.value = !isVisible.value;
   });
 
   return (
