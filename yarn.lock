@@ -283,7 +283,7 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@builder.io/qwik@^1.2.17":
+"@builder.io/qwik@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@builder.io/qwik/-/qwik-1.4.0.tgz#daad8b7913d9e52e5fa4f99ff5357777664d945e"
   integrity sha512-IZc7Mt7GLuBUWatWmagdocTfPJPCEHUraTiPMebkz0XFjLikM4Kb/M2bcd1C8zqyZfj+fYHB4z6+qlcn0sKLyQ==
