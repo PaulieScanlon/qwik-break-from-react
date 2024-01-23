@@ -23,7 +23,7 @@ const ClientFetchQwikComponent = component$(() => {
   return (
     <div>
       <p>Hello, I'm a simple Client fetch Qwik component</p>
-      {data.value ? <pre>{JSON.stringify(data.value, null, 2)}</pre> : null}
+      {data.value ? <pre>{JSON.stringify(data.value, null, 2)}</pre> : 'Loading...'}
     </div>
   );
 });

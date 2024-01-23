@@ -27,7 +27,7 @@ const ClientFetchReactComponent = () => {
   return (
     <div>
       <p>Hello, I'm a simple Client fetch React component</p>
-      {data ? <pre>{JSON.stringify(data, null, 2)}</pre> : null}
+      {data ? <pre>{JSON.stringify(data, null, 2)}</pre> : 'Loading...'}
     </div>
   );
 };
