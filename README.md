@@ -1,1 +1,1 @@
-# Take a Qwik Break from React
+# Take a Qwik Break from React with Astro
