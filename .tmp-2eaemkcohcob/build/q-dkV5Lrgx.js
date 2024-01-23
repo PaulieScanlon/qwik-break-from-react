@@ -1,1 +1,0 @@
-import{l as s}from"./q-rhDro6er.js";import{h as i}from"./q-rhDro6er.js";const a=async()=>{const[r]=s();try{const o=await fetch("https://api.github.com/repos/BuilderIO/qwik/pulls/1",{method:"GET"});if(!o.ok)throw new Error;const t=await o.json();r.value=t}catch(o){console.error(o)}};export{i as _hW,a as s_5itRwY4nuOU};
