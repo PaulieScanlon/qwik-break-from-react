@@ -10,6 +10,8 @@ export default defineConfig({
     react({
       include: ['**/react/*'],
     }),
-    qwikdev(),
+    qwikdev({
+      include: ['**/qwikdev/*'],
+    }),
   ],
 });
