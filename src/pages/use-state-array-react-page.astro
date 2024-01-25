@@ -1,0 +1,10 @@
+---
+import Main from '../layouts/main.astro';
+import UseStateArrayReactComponent from '../components/use-state-array-react-component';
+---
+
+<Main>
+  <a href='/'>Back</a>
+  <h1>useState array React Page</h1>
+  <UseStateArrayReactComponent client:only='react' />
+</Main>

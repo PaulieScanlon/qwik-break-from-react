@@ -1,0 +1,10 @@
+---
+import Main from '../layouts/main.astro';
+import UseStateBooleanReactComponent from '../components/use-state-boolean-react-component';
+---
+
+<Main>
+  <a href='/'>Back</a>
+  <h1>useState boolean React Page</h1>
+  <UseStateBooleanReactComponent client:only='react' />
+</Main>
