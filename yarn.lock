@@ -305,10 +305,10 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@builder.io/qwik@^1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@builder.io/qwik/-/qwik-1.4.1.tgz#1d654c4aa6b66cffb4509b1968175a2e9ab049d2"
-  integrity sha512-FXUxwjUeMlJp8zpIh0GBFcQdFn/+2OQ+gPeLA95gTZsN9x7CIRBoQ5W4IIp3PgWuusKjLzcZM1/BKxi7eXIw7Q==
+"@builder.io/qwik@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@builder.io/qwik/-/qwik-1.4.2.tgz#2320efd92bdfe8318cd0f6198eab5efdb8aa66fc"
+  integrity sha512-DqDrcqhcUrQpSFbZ4FsokYM6Wb8PP9dDkutWxH0jhNLHG/C0SAUuqquaPl89fuiDJAj4nlXNKIG0GeZaUVYE6A==
   dependencies:
     csstype "^3.1.3"
     vite "^5.0.12"
@@ -498,10 +498,10 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@qwikdev/astro@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@qwikdev/astro/-/astro-0.5.0.tgz#9ba763fe37300b19777ef7ac3b0a2df78ef805f4"
-  integrity sha512-VgitKKgYHAcP+flXIy7rh8BTHY/Ji7llSZyMrpBDfHSt8YumcCzjIA2/Bc/1TtfhRrlcwBpFnXzKYLO0zVfYpQ==
+"@qwikdev/astro@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@qwikdev/astro/-/astro-0.5.1.tgz#874bf5ba7ce6b89d11a569136c9bf96a743b9aef"
+  integrity sha512-VUbY5DtAQ7C5gYxhWIQdlt8YKZBW35QNTMmMAl1Mlm4/yojee4h2Vc3CkXFM+gOMJfURy7WIjw8cejsqYDPuWQ==
   dependencies:
     fs-extra "^11.1.1"
     vite-tsconfig-paths "^4.2.1"

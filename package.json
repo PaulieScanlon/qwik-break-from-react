@@ -16,8 +16,8 @@
   "dependencies": {
     "@astrojs/react": "^3.0.9",
     "@astrojs/tailwind": "^5.1.0",
-    "@builder.io/qwik": "^1.4.1",
-    "@qwikdev/astro": "^0.5.0",
+    "@builder.io/qwik": "^1.4.2",
+    "@qwikdev/astro": "^0.5.1",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
     "astro": "^4.2.1",
