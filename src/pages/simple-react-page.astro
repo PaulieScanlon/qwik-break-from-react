@@ -1,0 +1,10 @@
+---
+import Main from '../layouts/main.astro';
+import SimpleReactComponent from '../components/react/simple-react-component';
+---
+
+<Main>
+  <a href='/'>Back</a>
+  <h1>Simple React Page</h1>
+  <SimpleReactComponent client:only='react' />
+</Main>
